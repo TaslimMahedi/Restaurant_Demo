@@ -1,0 +1,23 @@
+.home{
+  padding-top:20vh;
+  height:34rem;
+  width: 95vw;
+  margin-left:1.7rem;
+  border-radius: 10px;
+  
+  background:url(../img/home.jpg) center;
+  background-size: cover;
+  
+
+  h1 {
+    font-size: 4rem;
+    padding-left:3rem;
+    color:set-text-color($primary-color);
+    text-shadow: 5px 5px 5px $primary-color;
+  }
+  p{
+    padding-left:3rem;
+    width:50%;
+    font-size:1.3rem;
+  }
+}
